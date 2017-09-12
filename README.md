@@ -11,7 +11,7 @@ For example:
   4. Set the `PASS_FILE` to `pass_file.txt`.
   5. From the Metasploit prompt, run `resource login-loop.rc`.
   6. The script will read each line of `pass_input.txt`, and:
-    1. Run the `date` command to leave you with a handy timestamp.
-    2. `echo` the current `pass_input.txt` line to `pass_file.txt`.
-    3. `run` the Metasploit module.
-    4. Start all subsequent executions of the loop with a `sleep` command, set to 1,860 seconds (31 minutes) by default.
+     1. Run the `date` command to leave you with a handy timestamp.
+     2. `echo` the current `pass_input.txt` line to `pass_file.txt`.
+     3. `run` the Metasploit module.
+     4. Start all subsequent executions of the loop with a `sleep` command, set to 1,860 seconds (31 minutes) by default.
